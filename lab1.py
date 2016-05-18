@@ -12,9 +12,3 @@ def countZeroValues(matrix):
             if value == 0:
                 counter += 1
     return counter
-
-if __name__ == '__main__':
-    matrix = generateMatrix(6,5)
-    print(matrix)
-    counter = countZeroValues(matrix)
-    print(counter)
